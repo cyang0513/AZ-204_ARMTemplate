@@ -1,0 +1,3 @@
+#Deplay with ACLI
+az group create --name "CHYA_ARM" --location northeu
+az deployment group create --resource-group CHYA_ARM --template-file arm_template.json --parameters arm_template.parameters.json
